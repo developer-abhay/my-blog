@@ -13,7 +13,7 @@ const databaseId = process.env.NOTION_PAGE_ID;
 // Get All Blogs
 export const getAllBlogs = async () => {
   const response = await notion.databases.query({
-    database_id: databaseId!,
+    database_id: databaseId || "",
     filter: {
       property: "Status",
       status: {

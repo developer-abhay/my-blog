@@ -13,7 +13,9 @@
     "@notion-render/client": "^0.0.2",
     "@notion-render/hljs-plugin": "^0.0.2",
     "@notionhq/client": "^2.2.15",
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/typography": "^0.5.14",
+    "clsx": "^2.1.1",
     "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18"
